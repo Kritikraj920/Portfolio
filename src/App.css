@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 2em;
+}
+
+.personal-photo {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 1em;
+}
+
+.project-list, .experience-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project, .experience-item {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  margin: 1em;
+  padding: 1em;
+  width: calc(33% - 2em);
+}
+
+.social-links a {
+  margin: 0 1em;
+  color: #333;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
